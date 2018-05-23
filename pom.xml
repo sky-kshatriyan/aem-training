@@ -333,7 +333,29 @@
                         <enabled>false</enabled>
                     </snapshots>
                 </repository>
+                <repository>
+                  <id>skykshatriyan-visualstudio.com-skyaem</id>
+                  <url>https://skykshatriyan.pkgs.visualstudio.com/_packaging/SKYAEM/maven/v1</url>
+                  <releases>
+                    <enabled>true</enabled>
+                  </releases>
+                  <snapshots>
+                    <enabled>true</enabled>
+                  </snapshots>
+                </repository>
             </repositories>
+            <distributionManagement>
+                <repository>
+                  <id>skykshatriyan-visualstudio.com-skyaem</id>
+                  <url>https://skykshatriyan.pkgs.visualstudio.com/_packaging/SKYAEM/maven/v1</url>
+                  <releases>
+                    <enabled>true</enabled>
+                  </releases>
+                  <snapshots>
+                    <enabled>true</enabled>
+                  </snapshots>
+                </repository>
+            </distributionManagement>
 
             <pluginRepositories>
                 <pluginRepository>
